@@ -1,0 +1,29 @@
+/* Only demo */
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+
+.singleTable {
+  img {
+    width: 100%;
+  }
+  .fa-times {
+    cursor: pointer;
+    color: red;
+  }
+  .imageDiv {
+    position: relative;
+
+    p {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      top: calc(50% - 27px);
+    }
+  }
+}
+.fa-star {
+  color: green;
+}
